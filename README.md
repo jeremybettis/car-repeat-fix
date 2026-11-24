@@ -22,7 +22,7 @@ Some car Bluetooth head units have an AVRCP firmware bug where, immediately upon
 ## Installation & Setup
 
 1. **Install the APK:**
-   - Download the latest APK from the [GitHub Releases](https://github.com/jeremybettis/car-repeat-fix/releases) page (or build from source below).
+   - Download the prebuilt APK directly: [**car-repeat-fix-v1.0.0.apk**](https://github.com/jeremybettis/car-repeat-fix/raw/main/release/car-repeat-fix-v1.0.0.apk) (or build from source below).
 2. **Grant Notification Access (Required):**
    - Open **Car Repeat Fix** and tap **Open Notification Access Settings**.
    - Enable **Car Repeat Fix** (`Car Repeat One Blocker`). Android requires this permission to allow an app to inspect and control active `MediaSession`s across other media apps.
