@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Repeat Fix</string>
+    <string name="service_label">Car Repeat One Blocker</string>
+
+    <string name="status_action_required">Action Required: Grant Notification Access</string>
+    <string name="status_paused">Protection Paused</string>
+    <string name="status_actively_guarding">Actively Guarding Against Repeat One</string>
+    <string name="status_standby_waiting">Standby — Waiting for Car Bluetooth</string>
+
+    <string name="none_yet">None yet</string>
+    <string name="connected_to_format">Connected: %1$s</string>
+    <string name="last_car_format">Last car: %1$s</string>
+    <string name="status_subtitle_format">%1$s • Auto-fixes applied: %2$d</string>
+
+    <string name="perm_warning_title">Media Session Access Required</string>
+    <string name="perm_warning_desc">Android requires Notification Access so Car Repeat Fix can detect when your car forces YouTube Music, Castbox, or any other media player into Repeat One mode and switch it back off.</string>
+    <string name="btn_grant_notification_access">Open Notification Access Settings</string>
+    <string name="open_notif_settings_fallback">Open Settings &gt; Notifications &gt; Notification Access and enable Car Repeat Fix.</string>
+
+    <string name="master_switch_title">Enable Repeat One Protection</string>
+    <string name="trigger_scope_title">When to Guard Media Players</string>
+    <string name="scope_selected_devices">Only when connected to selected car Bluetooth device(s)</string>
+    <string name="scope_any_bt">Whenever any Bluetooth audio device connects</string>
+    <string name="scope_always">Always block Repeat One at all times</string>
+
+    <string name="select_car_devices_title">Paired Bluetooth Devices</string>
+    <string name="select_car_devices_subtitle">Check your car head unit(s). If none are checked, any Bluetooth connection will trigger protection.</string>
+    <string name="btn_grant_bt_permission">Grant Bluetooth Permission to List Paired Devices</string>
+    <string name="bt_permission_denied_toast">Bluetooth permission is needed to list paired car devices.</string>
+    <string name="no_paired_devices">No paired Bluetooth devices found.</string>
+
+    <string name="timing_card_title">Watch Window &amp; Behavior</string>
+    <string name="watch_window_label">High-frequency post-connect watch window</string>
+    <string name="watch_window_format">%1$d seconds after Bluetooth connects</string>
+    <string name="continuous_while_connected_label">Keep guarding continuously while car remains connected</string>
+    <string name="custom_action_fallback_label">Also inspect custom player actions (YouTube Music / Castbox fallback)</string>
+
+    <string name="actions_card_title">Test &amp; Manual Controls</string>
+    <string name="btn_force_reset_now">Turn Off Repeat One Now</string>
+    <string name="btn_simulate_car_connect">Simulate Car Connect</string>
+    <string name="force_reset_sent_toast">Sent Repeat Off command to active media players</string>
+
+    <string name="activity_log_title">Recent Activity Log</string>
+    <string name="btn_clear_log">Clear</string>
+    <string name="no_events_logged_yet">No events logged yet. Connect to your car or tap \"Simulate Car Connect\" to test.</string>
+</resources>

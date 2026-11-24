@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- Repeat arrows circle -->
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M34,38h32v8l12,-12l-12,-12v8H26v20h8V38zM74,70H42v-8l-12,12l12,12v-8h40V58h-8V70z" />
+    <!-- Diagonal strike-through slash in coral/red to signify blocking Repeat One -->
+    <path
+        android:fillColor="#F87171"
+        android:pathData="M24,29.6L29.6,24L84,78.4L78.4,84z" />
+</vector>
